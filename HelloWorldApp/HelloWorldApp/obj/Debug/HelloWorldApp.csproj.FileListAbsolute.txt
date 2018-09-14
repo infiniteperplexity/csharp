@@ -6,3 +6,11 @@ C:\Users\M543015\Desktop\GitHub\csharp\HelloWorldApp\HelloWorldApp\obj\Debug\Hel
 C:\Users\M543015\Desktop\GitHub\csharp\HelloWorldApp\HelloWorldApp\obj\Debug\HelloWorldApp.csproj.GenerateResource.Cache
 C:\Users\M543015\Desktop\GitHub\csharp\HelloWorldApp\HelloWorldApp\obj\Debug\HelloWorldApp.exe
 C:\Users\M543015\Desktop\GitHub\csharp\HelloWorldApp\HelloWorldApp\obj\Debug\HelloWorldApp.pdb
+C:\Users\Glenn Wright\Contacts\Documents\GitHub\csharp\HelloWorldApp\HelloWorldApp\bin\Debug\HelloWorldApp.exe.config
+C:\Users\Glenn Wright\Contacts\Documents\GitHub\csharp\HelloWorldApp\HelloWorldApp\bin\Debug\HelloWorldApp.exe
+C:\Users\Glenn Wright\Contacts\Documents\GitHub\csharp\HelloWorldApp\HelloWorldApp\bin\Debug\HelloWorldApp.pdb
+C:\Users\Glenn Wright\Contacts\Documents\GitHub\csharp\HelloWorldApp\HelloWorldApp\obj\Debug\HelloWorldApp.csprojResolveAssemblyReference.cache
+C:\Users\Glenn Wright\Contacts\Documents\GitHub\csharp\HelloWorldApp\HelloWorldApp\obj\Debug\HelloWorldApp.MainForm.resources
+C:\Users\Glenn Wright\Contacts\Documents\GitHub\csharp\HelloWorldApp\HelloWorldApp\obj\Debug\HelloWorldApp.csproj.GenerateResource.Cache
+C:\Users\Glenn Wright\Contacts\Documents\GitHub\csharp\HelloWorldApp\HelloWorldApp\obj\Debug\HelloWorldApp.exe
+C:\Users\Glenn Wright\Contacts\Documents\GitHub\csharp\HelloWorldApp\HelloWorldApp\obj\Debug\HelloWorldApp.pdb

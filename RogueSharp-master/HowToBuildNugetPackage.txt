@@ -1,0 +1,14 @@
+// Since switching to .NET Standard on 7/28/2018 just run the following command from Package Manager Console
+// The project is multi-targeted for .NET Standard and .NET 4.0
+// The .nuspec file is replaced by properties on the project. Right click -> Edit project
+dotnet pack --include-symbols -c Release
+
+
+// Switch to local Nuget Directory
+cd c:\gitprojects\nuget
+
+// Package based on AssemblyInfo
+Nuget pack C:\GitProjects\RogueSharp\RogueSharp\RogueSharp.csproj -Build -Symbols -Properties Configuration=Release -Build
+
+// Push to Nuget.org
+Nuget push C:\GitProjects\Nuget\RogueSharp.<version>.nupkg
