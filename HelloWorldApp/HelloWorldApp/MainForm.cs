@@ -11,6 +11,7 @@ using System.Collections.Generic;
 using System.Drawing;
 using System.Drawing.Text;
 using System.Windows.Forms;
+using System.Diagnostics;
 
 namespace HelloWorldApp
 {
@@ -27,9 +28,6 @@ namespace HelloWorldApp
 		const int HEIGHT = 25;
 		const int WIDTH = 25;
 		int[,] map = new int[WIDTH, HEIGHT];
-		int px = 1;
-		int py = 1;
-		
 		
 		public MainForm()
 		{
@@ -44,7 +42,7 @@ namespace HelloWorldApp
 		}
 		void MainFormLoad(object sender, EventArgs e)
 		{
-			//this.ClientSize = new System.Drawing.Size(PADDING+WIDTH*(PADDING+FONTSIZE), PADDING+HEIGHT*(PADDING+FONTSIZE));
+			Debug.WriteLine("Hello console!");
 			g = this.CreateGraphics();
 			for (int x=0; x<WIDTH; x++)
 			{
@@ -57,10 +55,12 @@ namespace HelloWorldApp
 					}
 				}
 			}
+			
 		}
 		void MainFormPaint(object sender, PaintEventArgs e)
 		{
-			//g.Clear(System.Drawing.Color.White);
+			int px = Player.Instance.x;
+			int py = Player.Instance.y;
 			for (int x=0; x<WIDTH; x++)
 			{
 				for (int y=0; y<HEIGHT; y++)
@@ -81,13 +81,13 @@ namespace HelloWorldApp
 		void MainFormKeyDown(object sender, KeyEventArgs e)
 		{
 			if (e.KeyCode == Keys.Left) {
-				px = Math.Max(1, px-1);
+				Player.Instance.x = Math.Max(1, Player.Instance.x-1);
 			} else if (e.KeyCode == Keys.Right) {
-				px = Math.Min(WIDTH-2, px+1);
+				Player.Instance.x = Math.Min(WIDTH-2, Player.Instance.x+1);
 			} else if (e.KeyCode == Keys.Up) {
-				py = Math.Max(1, py-2);
+				Player.Instance.y = Math.Max(1, Player.Instance.y-1);
 			} else if (e.KeyCode == Keys.Down) {
-				py = Math.Min(HEIGHT-2, py+1);
+				Player.Instance.y = Math.Min(HEIGHT-2, Player.Instance.y+1);
 			}
 			this.Refresh();
 		}
