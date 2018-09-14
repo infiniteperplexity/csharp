@@ -43,11 +43,12 @@ namespace HelloWorldApp
 			this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.BackColor = System.Drawing.Color.White;
-			this.ClientSize = new System.Drawing.Size(869, 502);
+			this.ClientSize = new System.Drawing.Size(622, 595);
 			this.Name = "MainForm";
 			this.Text = "HelloWorldApp";
 			this.Load += new System.EventHandler(this.MainFormLoad);
 			this.Paint += new System.Windows.Forms.PaintEventHandler(this.MainFormPaint);
+			this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.MainFormKeyDown);
 			this.ResumeLayout(false);
 
 		}
