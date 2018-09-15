@@ -1,0 +1,11 @@
+C:\Users\Glenn Wright\Contacts\Documents\GitHub\csharp\roguelike\roguelike\obj\Debug\roguelike.csprojResolveAssemblyReference.cache
+C:\Users\Glenn Wright\Contacts\Documents\GitHub\csharp\roguelike\roguelike\bin\Debug\roguelike.exe.config
+C:\Users\Glenn Wright\Contacts\Documents\GitHub\csharp\roguelike\roguelike\bin\Debug\roguelike.exe
+C:\Users\Glenn Wright\Contacts\Documents\GitHub\csharp\roguelike\roguelike\bin\Debug\roguelike.pdb
+C:\Users\Glenn Wright\Contacts\Documents\GitHub\csharp\roguelike\roguelike\bin\Debug\OpenTK.dll
+C:\Users\Glenn Wright\Contacts\Documents\GitHub\csharp\roguelike\roguelike\bin\Debug\RLNET.dll
+C:\Users\Glenn Wright\Contacts\Documents\GitHub\csharp\roguelike\roguelike\bin\Debug\RogueSharp.dll
+C:\Users\Glenn Wright\Contacts\Documents\GitHub\csharp\roguelike\roguelike\bin\Debug\OpenTK.xml
+C:\Users\Glenn Wright\Contacts\Documents\GitHub\csharp\roguelike\roguelike\obj\Debug\roguelike.exe
+C:\Users\Glenn Wright\Contacts\Documents\GitHub\csharp\roguelike\roguelike\obj\Debug\roguelike.pdb
+C:\Users\Glenn Wright\Contacts\Documents\GitHub\csharp\roguelike\roguelike\bin\Debug\terminal8x8.png
